@@ -4,6 +4,8 @@
 2. Create an [Auth0](https://auth0.com) client for app
 3. Integrate web app with Auth0 client to protect pages behind authentication using [OAuth2](https://oauth.net/2/)
 
+This tutorial uses the [Auth0 Angular SDK](https://github.com/auth0/auth0-angular)to secure Angular application
+
 _________________
 
 #### Caveats
