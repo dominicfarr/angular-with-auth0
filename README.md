@@ -1,10 +1,13 @@
 # Angular Single-Page Application (SPA) with Auth0
 
-1. Create simple single page [Angular](https://angular.io/) web app with unprotected and protected pages
-2. Using [Auth0](https://auth0.com), an Identity-as-a-Service (IDaaS) platform, create a Auth0 Application to serve as the IDaaS for the Angular SPA
-3. Integrate web app with Auth0 client to protect pages behind authentication using [OAuth2](https://oauth.net/2/)
+A simple tutorial to create a SPA [Angular](https://angular.io/) web app and secure parts of the application by implementing user authentication. 
 
-This tutorial uses the [Auth0 Angular SDK](https://github.com/auth0/auth0-angular) to secure Angular application
+Authentication and authorization will be handled by an Identity-as-a-Service (IDaaS) platform, in this case, [Auth0](https://auth0.com) 
+
+This tutorial uses the following:
+
+1. [Angular CLI](https://cli.angular.io/) to create angular app, components, services, etc
+2. [Auth0 Angular SDK](https://github.com/auth0/auth0-angular) to secure the web application
 
 _________________
 
