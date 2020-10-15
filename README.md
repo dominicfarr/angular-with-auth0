@@ -16,6 +16,9 @@ _________________
 
 #### Caveats
 
-1. No tests, static analysis, code quality checking, no css, no fluff.
-2. Rabbit holes of futher reading are clearly marked with this symbol :rabbit:
-2. The world doesn't stop, so versions, dependencies, and documentation working as of Oct 2020...After that good luck! [Open an issue if you want.](https://github.com/dominicfarr/angular-auth0/issues)
+**Basically this tutorial is for me, to cement knowledge. In the unlikely evernt anyone else is reading this, [ymmv](https://dictionary.cambridge.org/dictionary/english/ymmv) ** 
+
+1. The reader of this tutorial is on mac, installed npm, yarn, anglular cli, node, etc.
+2. No tests, static analysis, code quality checking, no css, no fluff.
+3. Rabbit holes of futher reading are clearly marked with this symbol :rabbit:
+4. The world doesn't stop, so versions, dependencies, and documentation working as of Oct 2020...After that good luck! Open an [issue](https://github.com/dominicfarr/tutorial-blog-angular-auth0/issues) if you really really want.
