@@ -16,7 +16,7 @@ _________________
 
 #### Caveats
 
-**Basically this tutorial is for me, to cement knowledge. In the unlikely evernt anyone else is reading this, [ymmv](https://dictionary.cambridge.org/dictionary/english/ymmv) ** 
+__Basically this tutorial is for me, to cement knowledge. In the unlikely event anyone else is reading this, [ymmv](https://dictionary.cambridge.org/dictionary/english/ymmv)__
 
 1. The reader of this tutorial is on mac, installed npm, yarn, anglular cli, node, etc.
 2. No tests, static analysis, code quality checking, no css, no fluff.
