@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
 import { HomeComponent } from './components/home/home.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

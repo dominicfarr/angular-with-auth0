@@ -4,3 +4,5 @@
     <li>{{ user.name }}</li>
     <li>{{ user.email }}</li>
   </ul>
+  <app-logout *ngIf="auth.isAuthenticated$ | async">
+  </app-logout>
