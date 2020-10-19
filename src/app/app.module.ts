@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// Import the module from the SDK
+import { AuthModule } from '@auth0/auth0-angular';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule.forRoot({
+      domain: "domfarr.eu.auth0.com",
+      clientId: "saaM8PGeI93vOxRsFpcSe8P5E3yTz6r7"
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
