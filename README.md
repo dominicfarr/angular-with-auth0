@@ -110,4 +110,5 @@ ng add @auth0/auth0-angular
 ```
 
 :rabbit: [ng add](https://angular.io/cli/add) has lots of flags to learn about
+
 :rabbit: [Auth0 Angular SDK](https://auth0.com/docs/libraries/auth0-angular-spa) This SDK documentation has all you need to know about securing your Angular App 
