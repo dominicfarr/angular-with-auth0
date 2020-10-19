@@ -22,6 +22,10 @@ __Basically this is for me, to cement knowledge. In the unlikely event anyone el
 
 _________________
 
+Instruction set is WIP
+_________________
+
+
 ## Angular + Auth0 Bare Bones
 
 ### Step 1 - Create Angular app

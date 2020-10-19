@@ -14,22 +14,14 @@ export class LogoutComponent implements OnInit {
 
   // Inject the authentication service into your component through the constructor
   constructor(@Inject(DOCUMENT) private doc: Document, public auth: AuthService) {
-    console.log("Construct logout");
-
   }
 
   ngOnInit(): void {
-    console.log("Init logout");
-
   }
 
   logout(): void {
-    console.log("Calling logout");
     // Call this to redirect the user to the login page
     this.auth.logout({ returnTo: this.doc.location.origin });
-
-    console.log("Called logout");
-
   }
 
 }
